@@ -215,6 +215,17 @@
 				</configuration>
 			</plugin>
 			
+				<!-- removed a whole bunch of stuff 
+			 for why: see: http://blog.joda.org/2014/02/turning-off-doclint-in-jdk-8-javadoc.html
+		--> 
+				<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.10.4</version>
+					<configuration>
+						<additionalparam>-Xdoclint:none</additionalparam>
+					</configuration>
+			</plugin>
 
 			 <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -471,9 +482,20 @@
                                         <xmlOutput>true</xmlOutput>
                                     </configuration>
                                 </plugin>
-                                <plugin>
+									<!-- removed a whole bunch of stuff 
+			 for why: see: http://blog.joda.org/2014/02/turning-off-doclint-in-jdk-8-javadoc.html
+		--> 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>2.10.4</version>
+					<configuration>
+						<additionalparam>-Xdoclint:none</additionalparam>
+					</configuration>
+			</plugin>
+                                <!-- <plugin>
                                     <artifactId>maven-javadoc-plugin</artifactId>
-                                    <version>2.9.1</version>
+                                    <version>2.10.4</version>
                                     <configuration>
                                         <source>1.8</source>
                                         <doclet>
@@ -487,10 +509,10 @@
                                         <additionalparam>
                                             -inferrel -inferdep -hide java.* -collpackages
                                             java.util.* -attributes -operations
-                                            -enumerations -enumconstants
+                                            -enumerations -enumconstants -Xdoclint:none
                                         </additionalparam>
                                     </configuration>
-                                </plugin>
+                                </plugin> -->
                                 <plugin>
                                     <groupId>org.apache.maven.plugins</groupId>
                                     <artifactId>maven-jxr-plugin</artifactId>
