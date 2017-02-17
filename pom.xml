@@ -17,7 +17,7 @@
         <targetJdk>1.8</targetJdk>
         <github.account>SeshagiriSriram</github.account>
         <thucydides.version>0.9.268</thucydides.version>
-        <jelastic.context>gameoflife</jelastic.context>
+        <jelastic.context>addressbook</jelastic.context>
     </properties>
 
     <scm>
