@@ -186,6 +186,7 @@ public class StringUtilities {
 		
 		try{
 			finalDate = dateFormatter.parse(dateStringVal);
+			LOG.debug("convertStringToDate:{}/{}",dateStringVal,finalDate); 
 		}catch(ParseException e){
 			LoggerStackTraceUtil.printErrorMessage(e);
 		}
