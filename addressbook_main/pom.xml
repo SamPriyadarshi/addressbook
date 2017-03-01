@@ -205,7 +205,7 @@
 	<artifactId>tomcat7-maven-plugin</artifactId>
 	<version>2.2</version>
 	<configuration>
-		<url>http://192.168.56.104:8080/manager/text</url>
+		<url>http://52.172.45.7:8080/manager/text</url>
 		<server>tomcat7server</server>
 		<path>/addressbook</path>
 		<update>true</update>
