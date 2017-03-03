@@ -4,7 +4,7 @@ scenario 'Multiplying two integers', {
         b = 3
     }
     when 'we calculate the product of the two values', {
-        mult = a * b+1
+        mult = a * b
     }
     then 'the product should be 6', {
         mult.shouldBe 6
