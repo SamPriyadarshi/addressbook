@@ -1,0 +1,36 @@
+ Volume in drive D is DDRIVE
+ Volume Serial Number is 8A26-EC4F
+
+ Directory of D:\tmp\addressbook
+
+03/07/2017  02:58 PM    <DIR>          .
+03/07/2017  02:58 PM    <DIR>          ..
+03/07/2017  02:41 PM               114 abc.txt
+03/07/2017  02:41 PM                 0 add.txt
+03/07/2017  02:41 PM           116,902 addressbook_screenshot.png
+03/07/2017  02:44 PM               140 ash.txt
+03/07/2017  02:41 PM             4,552 build.properties
+03/07/2017  02:41 PM            23,891 build.xml
+03/07/2017  02:58 PM                 0 c.txt
+03/07/2017  02:41 PM                 0 chahat.txt
+03/07/2017  02:41 PM                66 e.txt
+03/07/2017  02:41 PM                 0 f.txt
+03/07/2017  02:41 PM                 0 file
+03/07/2017  02:41 PM                 0 h.txt
+03/07/2017  02:41 PM                 6 i.txt
+03/07/2017  02:41 PM                15 j.txt
+03/07/2017  02:41 PM                 0 jjj.txt
+03/07/2017  02:41 PM                 0 kb.txt
+03/07/2017  02:41 PM                88 m.txt
+03/07/2017  02:56 PM                12 n.txt
+03/07/2017  02:41 PM                 0 new.txt
+03/07/2017  02:41 PM            20,948 pom.xml
+03/07/2017  02:41 PM                 6 qwe.txt
+03/07/2017  02:41 PM                 0 r.txt
+03/07/2017  02:41 PM             3,351 README.md
+03/07/2017  02:41 PM                 0 sac.txt
+03/07/2017  02:41 PM    <DIR>          src
+03/07/2017  02:41 PM                 0 surbhi.txt
+03/07/2017  02:41 PM               577 z.txt
+              26 File(s)        170,668 bytes
+               3 Dir(s)  118,525,480,960 bytes free
