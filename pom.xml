@@ -61,6 +61,7 @@
     </pluginRepositories>
 
 
+<<<<<<< HEAD
 	
 
 <build>
@@ -79,6 +80,9 @@
 </plugins>
 </build> 
 
+=======
+<!-- --> 	
+>>>>>>> test
  <modules>
         <module>addressbook_main</module>
     </modules>
