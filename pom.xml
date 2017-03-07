@@ -61,28 +61,6 @@
     </pluginRepositories>
 
 
-<<<<<<< HEAD
-	
-
-<build>
-        <plugins>
-           <plugin>
-	<groupId>org.apache.tomcat.maven</groupId>
-	<artifactId>tomcat7-maven-plugin</artifactId>
-	<version>2.2</version>
-	<configuration>
-		<url>http://52.172.45.7:8080/manager/text</url>
-		<server>tomcat7server</server>
-		<path>/addressbook</path>
-		<update>true</update>
-	</configuration>
-	</plugin>
-</plugins>
-</build> 
-
-=======
-<!-- --> 	
->>>>>>> test
  <modules>
         <module>addressbook_main</module>
     </modules>
