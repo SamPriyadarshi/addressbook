@@ -1,4 +1,10 @@
 hello || nameste || aur nahi atta mughe || oola | uber
+kaise ho sab
+hjdbcjbdc bnvmnsfkjvrjkdvgsv
+asbccnbvn 
+sdjsjhcjkhvjshahcjkck 
+dil mei mere hai dard e disco
+nvsdmvsdmvm,sd
 Aashna has edited the file.
 kb added this
 kartikeya added this
@@ -13,6 +19,10 @@ owner added it
 how are u all
 Sriram made this change
 Hey gus... how are u all
+<<<<<<< HEAD
 git is great
 floor no 7
+=======
+Hi Folks!
+>>>>>>> 5565a631b120a70e9e502fab40a1b462dce46c31
 
