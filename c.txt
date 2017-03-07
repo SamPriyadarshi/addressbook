@@ -1,7 +1,10 @@
-check check
+hello || nameste || aur nahi atta mughe || oola | uber
+Aashna has edited the file.
+kb added this
 kartikeya added this
 chalo ghar chale
 hello || nameste || aur nahi atta mughe || oola | uber
+
 
 
 
@@ -14,3 +17,13 @@ ola
 
 Kya chal rha hai?
 
+
+Kya chal rha hai
+wassup?
+ola ola
+ola
+owner added it
+how are u all
+Sriram made this change
+Hey gus... how are u all
+>>>>>>> f4707bcfca4867ccfa1b66686d55e87c542b3987
