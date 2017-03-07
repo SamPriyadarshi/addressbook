@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+HOLI HAI.................GO PAGAL
+hello || nameste || aur nahi atta mughe || oola | uber
+kaise ho sab
  Volume in drive D is DDRIVE
  Volume Serial Number is 8A26-EC4F
 
@@ -9,6 +13,7 @@ hjdbcjbdc bnvmnsfkjvrjkdvgsv
 asbccnbvn 
 sdjsjhcjkhvjshahcjkck 
 dil mei mere hai dard e disco
+
 nvsdmvsdmvm,sd
 Aashna has edited the file.
 kb added this
@@ -48,4 +53,5 @@ git is great
 floor no 
 Charmi Edited the file
 Hi Folks!
-hum hain rahi pyar k fir milenge chalte chalte
+hum hain rahi pyar k fir milenge chalte chalt
+
