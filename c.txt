@@ -16,17 +16,6 @@ kartikeya added this
 chalo ghar chale
 hello || nameste || aur nahi atta mughe || oola | uber
  off jcfsifsif
-
-
-this is new change
-
-ola ola
-ola
-
-
-Kya chal rha hai?
-
-
 Kya chal rha hai
 wassup?
 ola ola
@@ -36,12 +25,23 @@ owner added it
 how are u all
 Sriram made this change
 Hey gus... how are u 
+Hey gus... how are u all
+Charmi Edited the file
+Hi Folks!
 hard life ahead
 Hi Folks!
+<<<<<<< HEAD
 hiiii
+=======
+>>>>>>> 698d07ed2e7bced95ef1cdf5d6cd80c69a1f0828
 hmse na ho pyga
 git is great
 floor no 
 Charmi Edited the file
 Hi Folks!
 hum hain rahi pyar k fir milenge chalte chalte
+<<<<<<< HEAD
+=======
+floor no 7
+
+>>>>>>> 698d07ed2e7bced95ef1cdf5d6cd80c69a1f0828
