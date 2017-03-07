@@ -13,7 +13,6 @@ owner added it
 how are u all
 Sriram made this change
 Hey gus... how are u all
-<<<<<<< HEAD
 git is great
 floor no 7
 
