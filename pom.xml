@@ -62,6 +62,7 @@
 
 
 	
+<<<<<<< HEAD
 <build>
         <plugins>
            <plugin>
@@ -78,6 +79,8 @@
 </plugins>
 </build> 
 
+=======
+>>>>>>> 25b6f939dbcfb6b1f4fde2264d3a40f6d7705b1d
  <modules>
         <module>addressbook_main</module>
     </modules>

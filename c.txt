@@ -1,0 +1,16 @@
+ Volume in drive D is DDRIVE
+ Volume Serial Number is 8A26-EC4F
+
+ Directory of D:\gitrepos\addressbook
+
+03/06/2017  12:54 PM    <DIR>          .
+03/06/2017  12:54 PM    <DIR>          ..
+03/06/2017  12:44 PM               562 a.txt
+03/04/2017  07:56 PM    <DIR>          addressbook_main
+02/23/2017  07:26 PM           116,902 addressbook_screenshot.png
+03/06/2017  12:44 PM               608 b.txt
+03/06/2017  12:54 PM                 0 c.txt
+02/28/2017  11:09 PM             3,007 pom.xml
+02/23/2017  07:26 PM             4,369 README.md
+               6 File(s)        125,448 bytes
+               3 Dir(s)  118,601,580,544 bytes free

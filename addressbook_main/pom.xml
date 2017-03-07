@@ -200,6 +200,7 @@
 
     <build>
         <plugins>
+<<<<<<< HEAD
 		          <plugin>
 	<groupId>org.apache.tomcat.maven</groupId>
 	<artifactId>tomcat7-maven-plugin</artifactId>
@@ -212,6 +213,9 @@
 	</configuration>
 	</plugin>
             <plugin>
+=======
+	    <plugin>
+>>>>>>> 25b6f939dbcfb6b1f4fde2264d3a40f6d7705b1d
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.2</version>
