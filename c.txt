@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 HOLI HAI.................GO PAGAL
 hello || nameste || aur nahi atta mughe || oola | uber
 kaise ho sab
@@ -8,7 +6,6 @@ kaise ho sab
 
  Directory of D:\tmp\addressbook
 HOLI HAI.................GO PAGAL
->>>>>>> e30e968d8daba2a7b31259d023a98e3ab0ffe1cd
 hello || nameste || aur nahi atta mughe || oola | uber
 kaise ho sab
 hjdbcjbdc bnvmnsfkjvrjkdvgsv
@@ -38,7 +35,3 @@ Hi Folks!
 hmse na ho pyga
 git is great
 floor no 7
-<<<<<<< HEAD
-=======
-
->>>>>>> e30e968d8daba2a7b31259d023a98e3ab0ffe1cd
