@@ -1,10 +1,4 @@
-HOLI HAI.................GO PAGAL
-hello || nameste || aur nahi atta mughe || oola | uber
-kaise ho sab
- Volume in drive D is DDRIVE
- Volume Serial Number is 8A26-EC4F
-
- Directory of D:\tmp\addressbook
+#### final Changes
 HOLI HAI.................GO PAGAL
 hello || nameste || aur nahi atta mughe || oola | uber
 kaise ho sab
@@ -18,11 +12,8 @@ kb added this
 kartikeya added this
 chalo ghar chale
 hello || nameste || aur nahi atta mughe || oola | uber
-<<<<<<< HEAD
 someone is high
-=======
  off jcfsifsif
->>>>>>> 99bd6e59bf0cb3b0b02cf4a7b0506fcffa63f13c
 Kya chal rha hai
 wassup?
 ola ola
@@ -31,33 +22,14 @@ ola
 owner added it
 how are u all
 Sriram made this change
-<<<<<<< HEAD
-=======
 Hey gus... how are u 
->>>>>>> 99bd6e59bf0cb3b0b02cf4a7b0506fcffa63f13c
 Hey gus... how are u all
 Charmi Edited the file
 Hi Folks!
 hard life ahead
 Hi Folks!
-<<<<<<< HEAD
 hmse na ho pyga
 git is great
 floor no 7
-=======
-<<<<<<< HEAD
-hiiii
-=======
->>>>>>> 698d07ed2e7bced95ef1cdf5d6cd80c69a1f0828
-hmse na ho pyga
-git is great
-floor no 
-Charmi Edited the file
-Hi Folks!
 hum hain rahi pyar k fir milenge chalte chalte
-<<<<<<< HEAD
-=======
-floor no 7
-
->>>>>>> 698d07ed2e7bced95ef1cdf5d6cd80c69a1f0828
->>>>>>> 99bd6e59bf0cb3b0b02cf4a7b0506fcffa63f13c
+# end of changes
