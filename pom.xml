@@ -61,7 +61,7 @@
     </pluginRepositories>
 
 
-	
+<!-- --> 	
  <modules>
         <module>addressbook_main</module>
     </modules>
