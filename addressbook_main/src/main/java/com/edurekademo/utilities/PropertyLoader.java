@@ -93,9 +93,9 @@ public class PropertyLoader
 			{ 
 					in.close (); 
 			} 
-			catch (Throwable ignore) {} 
+			catch (Throwable ignore) {LOG.debug("Ignored exception",ignore.getMessage());} 
 		} 
-		if (THROW_ON_LOAD_FAILURE && (result == null)) 
+		if (THROW_ON_LOAD_FAILURE && result == null) 
 		{ 
 			// LOG exception... Do not re-throw this.. as I do not expect users to catch this exception :-) 
 			//throw new IllegalArgumentException ("could not load [" + name + "]"+ " as " + (LOAD_AS_RESOURCE_BUNDLE ? "a resource bundle" : "a classloader resource"));
