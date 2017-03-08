@@ -1,3 +1,0 @@
-fsffs
-README.md  addressbook_screenshot.png  build.xml  src
-abc.txt    build.properties	       pom.xml	  z.txt
