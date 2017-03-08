@@ -1,27 +1,32 @@
+<<<<<<< HEAD:c.txt
+=======
 #### final Changes
 HOLI HAI.................GO PAGAL
+>>>>>>> a3d2db9a0884dfd6fd36ff4e2075dc69df547362:demo_text_files/c.txt
 hello || nameste || aur nahi atta mughe || oola | uber
-kaise ho sab
-hjdbcjbdc bnvmnsfkjvrjkdvgsv
-asbccnbvn 
-sdjsjhcjkhvjshahcjkck 
-dil mei mere hai dard e disco
-nvsdmvsdmvm,sd
 Aashna has edited the file.
 kb added this
 kartikeya added this
 chalo ghar chale
 hello || nameste || aur nahi atta mughe || oola | uber
+<<<<<<< HEAD:c.txt
+
+=======
 someone is high
  off jcfsifsif
+>>>>>>> a3d2db9a0884dfd6fd36ff4e2075dc69df547362:demo_text_files/c.txt
 Kya chal rha hai
 wassup?
 ola ola
-olaKya chal rha hai?relocation leave ki bat krlo plz /\
 ola
 owner added it
 how are u all
 Sriram made this change
+<<<<<<< HEAD:c.txt
+Hey gus... how are u all
+Hi Folks!
+hiiii
+=======
 <<<<<<< HEAD:c.txt
 <<<<<<< HEAD
 Hey gus... how are u 
@@ -53,3 +58,4 @@ floor no 7
 hum hain rahi pyar k fir milenge chalte chalte
 # end of changes
 >>>>>>> 188c2dc00396c540f93e6ad4f44c13a361285d9f:demo_text_files/c.txt
+>>>>>>> a3d2db9a0884dfd6fd36ff4e2075dc69df547362:demo_text_files/c.txt
