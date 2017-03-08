@@ -1,0 +1,55 @@
+#### final Changes
+HOLI HAI.................GO PAGAL
+hello || nameste || aur nahi atta mughe || oola | uber
+kaise ho sab
+hjdbcjbdc bnvmnsfkjvrjkdvgsv
+asbccnbvn 
+sdjsjhcjkhvjshahcjkck 
+dil mei mere hai dard e disco
+nvsdmvsdmvm,sd
+Aashna has edited the file.
+kb added this
+kartikeya added this
+chalo ghar chale
+hello || nameste || aur nahi atta mughe || oola | uber
+someone is high
+ off jcfsifsif
+Kya chal rha hai
+wassup?
+ola ola
+olaKya chal rha hai?relocation leave ki bat krlo plz /\
+ola
+owner added it
+how are u all
+Sriram made this change
+<<<<<<< HEAD:c.txt
+<<<<<<< HEAD
+Hey gus... how are u 
+=======
+>>>>>>> 69c49124aaee09dd970c4ce0128b2c0735ae749d
+=======
+Hey gus... how are u 
+>>>>>>> 188c2dc00396c540f93e6ad4f44c13a361285d9f:demo_text_files/c.txt
+Hey gus... how are u all
+Charmi Edited the file
+Hi Folks!
+hard life ahead
+Hi Folks!
+hmse na ho pyga
+git is great
+<<<<<<< HEAD:c.txt
+<<<<<<< HEAD
+floor no 
+Charmi Edited the file
+Hi Folks!
+hum hain rahi pyar k fir milenge chalte chalte
+floor no 7
+
+=======
+floor no 7
+>>>>>>> 69c49124aaee09dd970c4ce0128b2c0735ae749d
+=======
+floor no 7
+hum hain rahi pyar k fir milenge chalte chalte
+# end of changes
+>>>>>>> 188c2dc00396c540f93e6ad4f44c13a361285d9f:demo_text_files/c.txt
