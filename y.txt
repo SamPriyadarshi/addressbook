@@ -1,5 +1,0 @@
-abc.txt			    build.xml	f.txt	 kb.txt   qwe.txt    surbhi.txt
-addressbook_screenshot.png  chahat.txt	h.txt	 m.txt	  README.md  y.txt
-add.txt			    c.txt	i.txt	 new.txt  r.txt      z.txt
-ash.txt			    e.txt	jjj.txt  n.txt	  sac.txt
-build.properties	    file	j.txt	 pom.xml  src
