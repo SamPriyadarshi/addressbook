@@ -12,7 +12,7 @@ import com.vaadin.v7.data.fieldgroup.BeanFieldGroup;
 import com.vaadin.v7.data.fieldgroup.FieldGroup;
 import com.vaadin.v7.ui.DateField;
 import com.vaadin.v7.ui.TextField;
-
+import com.edurekademo.utilities.LoggerStackTraceUtil;
 /* Create custom UI Components.
  *
  * Create your own Vaadin components by inheritance and composition.
@@ -88,6 +88,7 @@ public class ContactForm extends FormLayout {
             getUI().refreshContacts();
         } catch (FieldGroup.CommitException e) {
             // Validation exceptions could be shown here
+			LoggerStackTraceUtil.printErrorMessage(e);
         }
     }
 

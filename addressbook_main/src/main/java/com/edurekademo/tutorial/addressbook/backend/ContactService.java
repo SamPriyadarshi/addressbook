@@ -59,7 +59,7 @@ public class ContactService {
         ArrayList arrayList = new ArrayList();
         for (Contact contact : contacts.values()) {
             try {
-                boolean passesFilter = (stringFilter == null || stringFilter.isEmpty())
+                boolean passesFilter = stringFilter == null || stringFilter.isEmpty()
                         || contact.toString().toLowerCase()
                                 .contains(stringFilter.toLowerCase());
                 if (passesFilter) {
