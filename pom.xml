@@ -25,6 +25,20 @@
         <developerConnection>scm:git:git@github.com:${github.account}/addressbook.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/addressbook.git</url>
     </scm>
+		<distributionManagement>
+		<snapshotRepository>
+			<id>${env.ART_ID}</id>
+			<name>${env.ART_NAME}</name>
+			<url>${env.ART_URL}</url>
+		</snapshotRepository>
+		<repository>
+		<id>${env.REL_ART_ID}</id>
+			<name>${env.REL_ART_NAME}</name>
+			<url>${env.REL_ART_URL}</url>
+		</repository>
+    </distributionManagement>
+
+	
     <pluginRepositories>
         <pluginRepository>
             <id>vaadin-snapshots</id>
