@@ -8,6 +8,20 @@
     <version>2.0.4-SNAPSHOT</version>
     <name>Vaadin Addressbook example</name>
 
+		<distributionManagement>
+		<snapshotRepository>
+			<id>${env.ART_ID}</id>
+			<name>${env.ART_NAME}</name>
+			<url>${env.ART_URL}</url>
+		</snapshotRepository>
+		<repository>
+		<id>${env.REL_ART_ID}</id>
+			<name>${env.REL_ART_NAME}</name>
+			<url>${env.REL_ART_URL}</url>
+		</repository>
+
+	</distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>

@@ -20,12 +20,7 @@
         <jelastic.context>addressbook</jelastic.context>
     </properties>
 
-    <scm>
-        <connection>scm:git:git@github.com:${github.account}/addressbook.git</connection>
-        <developerConnection>scm:git:git@github.com:${github.account}/addressbook.git</developerConnection>
-        <url>scm:git:git@github.com:${github.account}/addressbook.git</url>
-    </scm>
-		<distributionManagement>
+	<distributionManagement>
 		<snapshotRepository>
 			<id>${env.ART_ID}</id>
 			<name>${env.ART_NAME}</name>
@@ -36,8 +31,8 @@
 			<name>${env.REL_ART_NAME}</name>
 			<url>${env.REL_ART_URL}</url>
 		</repository>
-    </distributionManagement>
 
+	</distributionManagement>
 	
     <pluginRepositories>
         <pluginRepository>
