@@ -33,4 +33,6 @@ node {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore deploy/)
       }
    }
+   stage('DeploytoTestServer') { 
+   } 
 } 
