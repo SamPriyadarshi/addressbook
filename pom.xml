@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.edurekademo.tutorial</groupId>
     <artifactId>addressbook</artifactId>
-    <version>1.0.0-SNAPSHOT</version><!--test->
+    <version>1.0.0</version><!--test-->
     <packaging>pom</packaging>
     <name>Address Book Edureka Demo</name>
     <url>https://github.com/SeshagiriSriram/addressbook</url>
