@@ -5,7 +5,7 @@
     <groupId>com.edurekademo.tutorial</groupId>
     <artifactId>addressbook_main</artifactId>
     <packaging>war</packaging>
-    <version>2.0.4-SNAPSHOT</version>
+    <version>2.0.4</version>
     <name>Vaadin Addressbook example</name>
 
 		<distributionManagement>
@@ -422,7 +422,7 @@
                         <configuration>
                             <targetJdk>1.8</targetJdk>
                             <aggregate>true</aggregate>
-                            <format>xml</format>
+                            <format>html</format>
                             <!-- CPD options -->
                             <minimumTokens>20</minimumTokens>
                             <!--<ignoreIdentifiers>true</ignoreIdentifiers>-->
@@ -500,7 +500,7 @@
                                     <configuration>
                                         <targetJdk>1.8</targetJdk>
                                         <aggregate>true</aggregate>
-                                        <format>xml</format>
+                                        <format>html</format>
                                         <rulesets>
                                             <ruleset>/pmd-rules.xml</ruleset>
                                         </rulesets>
@@ -625,7 +625,7 @@
                         <configuration>
                             <targetJdk>1.8</targetJdk>
                             <aggregate>true</aggregate>
-                            <format>xml</format>
+                            <format>html</format>
                             <rulesets>
                                 <ruleset>/pmd-rules.xml</ruleset>
                             </rulesets>
