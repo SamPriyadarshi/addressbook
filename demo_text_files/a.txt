@@ -1,11 +1,12 @@
- Volume in drive D is DDRIVE
+ Volume in drive D is in branch ABC for changes with master
  Volume Serial Number is 8A26-EC4F
 
  Directory of D:\gitrepos\addressbook\demo_text_files
 
-04/30/2017  10:49 PM    <DIR>          .
-04/30/2017  10:49 PM    <DIR>          ..
-04/30/2017  10:49 PM                 0 a.txt
+
+04/30/2017  10:41 PM    <DIR>          .
+04/30/2017  10:40 PM    <DIR>          ..
+04/30/2017  10:44 PM                 0 a.txt
 04/30/2017  10:40 PM               554 b.txt
 04/30/2017  10:40 PM               554 c.txt
 04/30/2017  10:40 PM               611 d.txt
