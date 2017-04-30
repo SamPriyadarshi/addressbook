@@ -1,0 +1,10 @@
+total 148
+drwxrwxr-x  4 jenkins jenkins   4096 Mar  8 05:36 .
+drwxrwxrwt 11 root    root      4096 Mar  8 05:17 ..
+drwxrwxr-x  3 jenkins jenkins   4096 Mar  8 03:33 addressbook_main
+-rw-rw-r--  1 jenkins jenkins 116902 Mar  8 03:30 addressbook_screenshot.png
+-rw-rw-r--  1 jenkins jenkins     26 Mar  8 05:34 a.txt
+-rw-rw-r--  1 jenkins jenkins      0 Mar  8 05:36 c.txt
+drwxrwxr-x  8 jenkins jenkins   4096 Mar  8 05:36 .git
+-rw-rw-r--  1 jenkins jenkins   2552 Mar  8 03:30 pom.xml
+-rw-rw-r--  1 jenkins jenkins   4275 Mar  8 03:30 README.md

@@ -6,7 +6,19 @@
     <packaging>war</packaging>
     <version>1.1.1-SNAPSHOT</version><!--test-->
     <name>Vaadin Addressbook example</name>
+<<<<<<< HEAD
     <properties>
+=======
+    
+<distributionManagement>
+  <repository>
+    <id>dev1</id>
+    <url>http://52.172.203.249:8080/nexus/content/repositories/dev1</url>
+  </repository>
+</distributionManagement>
+
+<properties>
+>>>>>>> c618cbe7fefbbff7a5530f00ef38639b7f80756d
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <vaadin.version>8.0.0.alpha2</vaadin.version>
