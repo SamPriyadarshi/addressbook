@@ -19,8 +19,6 @@
         <thucydides.version>0.9.268</thucydides.version>
         <jelastic.context>addressbook</jelastic.context>
     </properties>
-<<<<<<< HEAD
-
 	<distributionManagement>
 		<snapshotRepository>
 			<id>${env.ART_ID}</id>
@@ -35,24 +33,6 @@
 
 	</distributionManagement>
 	
-	    <scm>
-=======
-    
-<distributionManagement>
-  <repository>
-    <id>dev1</id>
-    <url>http://52.172.203.249:8080/nexus/content/repositories/dev1</url>
-  </repository>
-</distributionManagement>
-	
-<scm>
->>>>>>> c618cbe7fefbbff7a5530f00ef38639b7f80756d
-        <connection>scm:git:git@github.com:${github.account}/addressbook.git</connection>
-        <developerConnection>scm:git:git@github.com:${github.account}/addressbook.git</developerConnection>
-        <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
-      <!-- <tag>1.0.5</tag> --> 
-    <tag>HEAD</tag>
-  </scm>
 
     <pluginRepositories>
         <pluginRepository>
