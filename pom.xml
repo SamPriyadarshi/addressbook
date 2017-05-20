@@ -33,13 +33,6 @@
 
 	</distributionManagement>
 	
-	    <scm>
-        <connection>scm:git:git@github.com:${github.account}/addressbook.git</connection>
-        <developerConnection>scm:git:git@github.com:${github.account}/addressbook.git</developerConnection>
-        <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
-      <!-- <tag>1.0.5</tag> --> 
-    <tag>HEAD</tag>
-  </scm>
 
     <pluginRepositories>
         <pluginRepository>
