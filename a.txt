@@ -1,0 +1,19 @@
+ Volume in drive D is DATA
+ Volume Serial Number is 069F-E679
+
+ Directory of D:\gitrepos\addressbook
+
+20-03-2018  18:59    <DIR>          .
+20-03-2018  18:59    <DIR>          ..
+15-03-2018  19:08               391 .project
+15-03-2018  19:08    <DIR>          .settings
+20-03-2018  18:59                 0 a.txt
+15-03-2018  19:08    <DIR>          addressbook_main
+15-03-2018  19:08           116,902 addressbook_screenshot.png
+15-03-2018  19:08               277 deploy.bat
+15-03-2018  19:08             1,985 Jenkinsfile
+15-03-2018  19:08             2,667 pom.xml
+15-03-2018  19:08             4,369 README.md
+15-03-2018  19:08               651 sonar-project.properties
+               8 File(s)        127,242 bytes
+               4 Dir(s)  835,687,215,104 bytes free
