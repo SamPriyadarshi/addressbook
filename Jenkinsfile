@@ -3,9 +3,9 @@ node {
    def version 
    stage('Preparation') {
 <<<<<<< HEAD
-      git 'https://github.com/SeshagiriSriram/addressbook.git'
+      git 'https://github.com/Prabhu4tx/addressbook.git'
       mvnHome = tool 'LOCAL_MAVEN'
-	  version = '2.3.5' 
+	  version = '3.5.3' 
    }
    stage('Build') {
         withMaven(
@@ -18,9 +18,9 @@ node {
       } else {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore test -Pfunctional-test -DSkipUTs=true -DskipTests=true/)
 =======
-      git 'https://github.com/sachingupta771/addressbook.git'
+      git 'https://github.com/Prabhu4tx/addressbook.git'
       mvnHome = tool 'LOCAL_MAVEN'
-	  version = '3.3.9' 
+	  version = '3.5.3' 
    }
    stage('Perform-UnitTest') {
         withMaven(
