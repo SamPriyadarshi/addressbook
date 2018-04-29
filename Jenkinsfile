@@ -4,12 +4,12 @@ node {
    stage('Preparation') {
 
       git 'https://github.com/Prabhu4tx/addressbook.git'
-      mvnHome = tool 'LOCAL_MAVEN'
+      mvnHome = tool 'maven'
 	  version = '3.5.3' 
    }
    stage('Build') {
         withMaven(
-        maven: 'LOCAL_MAVEN', // Maven installation declared in the Jenkins "Global Tool Configuration"
+        maven: 'maven', // Maven installation declared in the Jenkins "Global Tool Configuration"
         mavenSettingsConfig: 'settings.xml', // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
         mavenLocalRepo: 'd:/repos') {
 
@@ -24,7 +24,7 @@ node {
    }
    stage('Perform-UnitTest') {
         withMaven(
-        maven: 'LOCAL_MAVEN', // Maven installation declared in the Jenkins "Global Tool Configuration"
+        maven: 'maven', // Maven installation declared in the Jenkins "Global Tool Configuration"
         mavenSettingsConfig: 'settings.xml', // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
         mavenLocalRepo: '/opt/maven') {
 
