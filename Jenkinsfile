@@ -19,7 +19,8 @@ node {
   //  }
 
       if (isUnix()) {
-         sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore test -Pfunctional-test -DSkipUTs=true -DskipTests=true"
+        // sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore test -Pfunctional-test -DSkipUTs=true -DskipTests=true"
+	      "'${mvnHome}/bin/mvn' clean install "
       } else {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore test -Pfunctional-test -DSkipUTs=true -DskipTests=true/)
 
@@ -31,10 +32,10 @@ node {
         withMaven(
         maven: 'maven', // Maven installation declared in the Jenkins "Global Tool Configuration"
         mavenSettingsConfig: 'settings.xml', // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
-        mavenLocalRepo: '/opt/maven') {
+        mavenLocalRepo: '/home/user/maven') {
 
       if (isUnix()) {
-         sh "'${mvnHome}/bin/mvn'  clean test"
+         sh "'${mvnHome}/bin/mvn'  clean test "
       } else {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean test/)
 
