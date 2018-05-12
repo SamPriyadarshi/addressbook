@@ -31,7 +31,7 @@ node {
    stage('Perform-UnitTest') {
         withMaven(
         maven: 'maven', // Maven installation declared in the Jenkins "Global Tool Configuration"
-        mavenSettingsConfig: 'settings.xml', // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
+        //mavenSettingsConfig: 'settings.xml', // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
         mavenLocalRepo: '/home/user/maven') {
 
       if (isUnix()) {
@@ -59,6 +59,7 @@ node {
    }
 
    stage('notify') { 
+	   echo "user"
    } 
 } 
 //>>>>>>> c618cbe7fefbbff7a5530f00ef38639b7f80756d
