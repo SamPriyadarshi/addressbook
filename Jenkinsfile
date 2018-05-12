@@ -13,10 +13,10 @@ node {
         maven: 'maven', // Maven installation declared in the Jenkins "Global Tool Configuration"
         //mavenSettingsConfig: 'settings.xml', // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
         mavenLocalRepo: '.repository') {
-		configFileProvider(
-        [configFile(fileId: 'maven-settings', variable: 'MAVEN_SETTINGS')]) {
-        sh 'mvn -s $MAVEN_SETTINGS clean package'
-    }
+	//	configFileProvider(
+        //[configFile(fileId: 'maven-settings', variable: 'MAVEN_SETTINGS')]) {
+        //sh 'mvn -s $MAVEN_SETTINGS clean package'
+  //  }
 
       if (isUnix()) {
          sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore test -Pfunctional-test -DSkipUTs=true -DskipTests=true"
