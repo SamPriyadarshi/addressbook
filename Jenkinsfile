@@ -12,7 +12,7 @@ node {
         withMaven(
         maven: 'maven', // Maven installation declared in the Jenkins "Global Tool Configuration"
         //mavenSettingsConfig: 'settings.xml', // Maven settings.xml file defined with the Jenkins Config File Provider Plugin
-        mavenLocalRepo: '.repository'') {
+        mavenLocalRepo: '.repository') {
 		configFileProvider(
         [configFile(fileId: 'maven-settings', variable: 'MAVEN_SETTINGS')]) {
         sh 'mvn -s $MAVEN_SETTINGS clean package'
