@@ -20,7 +20,7 @@ node {
 
       if (isUnix()) {
         // sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore test -Pfunctional-test -DSkipUTs=true -DskipTests=true"
-	      "'${mvnHome}/bin/mvn' clean install "
+	   sh "'${mvnHome}/bin/mvn' clean install "
       } else {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore test -Pfunctional-test -DSkipUTs=true -DskipTests=true/)
 
