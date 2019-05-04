@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: phpaddrpag
+  labels:
+    app: phpapp1
+spec:
+  containers:
+    - name: testaddress
+      image: prabhu4029/myapp3:2.2.5
