@@ -1,6 +1,6 @@
 package com.edurekademo.tutorial.addressbook;
 
-import javax.servlet.annotation.WebServlet;
+import javax.servlet.annotation.WebServlet (failing the build)
 
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Title;
