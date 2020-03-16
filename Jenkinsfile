@@ -26,8 +26,8 @@ node{
     stage ('Run tomcatapp'){
      def runtomcat = 'docker run -p 8080:8080 -d --name myapp1 prabhu4029/myapp1:2.1.22'
       
-        sshagent(['dockerpass1']) {
-    sh "ssh -o StrictHostKeyChecking=no prabhu4tx@10.128.0.3 ${runtomcat}"
+        sshagent(['dockerpwd']) {
+    sh "ssh -o StrictHostKeyChecking=no prabhu4tx@10.128.0.5 ${runtomcat}"
 }
   }
 }
