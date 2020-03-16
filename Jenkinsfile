@@ -13,7 +13,7 @@ node{
     stage ('docker build')
     {
       // sh  "docker version"
-        sh " sudo docker build -t prabhu4029/myapp1:2.1.21."
+        sh " sudo docker build -t prabhu4029/myapp1:2.1.21 ."
     }
     stage ('push docker image')
     {
