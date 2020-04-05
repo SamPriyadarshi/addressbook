@@ -13,7 +13,7 @@ node{
     stage ('docker build')
     {
       // sh  "docker version"
-        sh " sudo docker build -t prabhu4029/myapp1:2.1.22 ."
+        sh " sudo docker build -t prabhu4029/myapp1:2.1.23 ."
     }
     stage ('push docker image')
     {
@@ -21,10 +21,10 @@ node{
             sh "sudo docker login -u prabhu4029 -p ${dockerpwd}"
       
 }
-   sh 'sudo docker push prabhu4029/myapp1:2.1.22'
+   sh 'sudo docker push prabhu4029/myapp1:2.1.23'
     }
     stage ('Run tomcatapp'){
-     def runtomcat = 'docker run -p 8080:8080 -d --name myapp1 prabhu4029/myapp1:2.1.22'
+     def runtomcat = 'docker run -p 8080:8080 -d --name myapp1 prabhu4029/myapp1:2.1.23'
       
         sshagent(['dockerpwd']) {
     sh "ssh -o StrictHostKeyChecking=no prabhu4tx@10.128.0.5 ${runtomcat}"
