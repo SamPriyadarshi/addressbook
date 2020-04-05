@@ -13,7 +13,7 @@ node{
     stage ('docker build')
     {
       // sh  "docker version"
-        sh " sudo docker build -t prabhu4029/myapp1:2.1.24 ."
+        sh " sudo docker build -t prabhu4029/myapp2:2.1.21 ."
     }
     stage ('push docker image')
     {
@@ -21,9 +21,9 @@ node{
             sh "sudo docker login -u prabhu4029 -p ${dockerpwd}"
       
 }
-   sh 'sudo docker push prabhu4029/myapp1:2.1.24'
+   sh 'sudo docker push prabhu4029/myapp2:2.1.21'
     }
     stage ('Run tomcatapp'){
-    sh 'sudo docker run -p 8080:8080 -d --name myapp1 prabhu4029/myapp1:2.1.24'   
+    sh 'sudo docker run -p 8080:8080 -d --name myapp1 prabhu4029/myapp2:2.1.21'   
   }
 }
