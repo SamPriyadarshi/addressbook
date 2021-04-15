@@ -133,7 +133,7 @@ public class StringUtilities {
 
 		Class<?> finalClass = null ;
 		//If value or type passed is null or empty or string return back value as such
-		if ((value == null) || value.isEmpty() || types == null || types.isEmpty() || types.equalsIgnoreCase(STRING_TYPE))  return value;
+		if (value == null || value.isEmpty() || types == null || types.isEmpty() || types.equalsIgnoreCase(STRING_TYPE))  return value;
 
 		String type = types.toLowerCase();
 		
@@ -180,12 +180,13 @@ public class StringUtilities {
 		Object finalDate = null;
 		String dateStringVal=null;
 		//If the incoming date string contains the format as well parse using the given format, else parse using default
-		dateFormat = (dateString.contains(DATEFORMAT_SEPARATOR)) ? dateString.split(DATEFORMAT_SEPARATOR)[1] : DATE_FORMAT ;
-		dateStringVal = (dateString.contains(DATEFORMAT_SEPARATOR)) ? dateString.split(DATEFORMAT_SEPARATOR)[0] : dateString ;
+		dateFormat = dateString.contains(DATEFORMAT_SEPARATOR) ? dateString.split(DATEFORMAT_SEPARATOR)[1] : DATE_FORMAT ;
+		dateStringVal = dateString.contains(DATEFORMAT_SEPARATOR) ? dateString.split(DATEFORMAT_SEPARATOR)[0] : dateString ;
 		SimpleDateFormat dateFormatter = new SimpleDateFormat(dateFormat);
 		
 		try{
 			finalDate = dateFormatter.parse(dateStringVal);
+			LOG.debug("convertStringToDate:{}/{}",dateStringVal,finalDate); 
 		}catch(ParseException e){
 			LoggerStackTraceUtil.printErrorMessage(e);
 		}
